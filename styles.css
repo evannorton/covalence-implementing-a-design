@@ -1,4 +1,5 @@
-p.navbar {
-    float: right;
-    color: blue;
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
