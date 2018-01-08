@@ -1,5 +1,97 @@
-ul {
-    list-style-type: none;
-    padding: 0;
+@font-face {
+    font-family: 'Playfair';
+    src: url('assets/Font/PlafairDisplay-Bold.woff'),
+    url('assets/Font/Playfair Display 700.ttf') format('truetype');
+}
+
+html, body {
+    font-family: 'Playfair';
     margin: 0;
+    font-size: 16px;
+    width: 1000px;
+    height: 1000px%;
+}
+
+nav {
+    margin: 25px 420px 0px 394px;
+    height: 100px;
+    width: 1200px;
+}
+
+nav span {
+    padding: 16px 22px;
+    font-size: 20px;
+    border: 4px solid black;
+}
+
+nav a {
+    font-size: 20px;
+    color: black;
+    text-decoration: unset;
+    float: right;
+    padding: 0px 16px;
+    margin-top: 30px;
+}
+
+footer img {
+    width: 48px;
+    height: 48px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.text-orange {
+    color: darkorange;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.about {
+    height: 400px;
+    width: 1000px;
+    background-color: rgb(225, 225, 225);
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+#big-text {
+    float: right;
+    height: 200px;
+    width: 400px;
+    color: darkslategrey;
+    background-color: white;
+    border: 4px solid black;
+    padding: 30px;
+    margin: 70px 40px 0px 0px;
+}
+
+#little-text {
+    height: 200px;
+    width: 350px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+#little-text h2 {
+    font-size: 72px;
 }
