@@ -1,5 +1,4 @@
 # Implementing a Design
-Covalence
 
 ## Info
 * A web developer is very rarely a web designer
